@@ -1,0 +1,71 @@
+.row .card img {
+  height: 312px !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px !important;
+}
+.card:hover .hovered {
+  transition: 0.3s;
+  transform: translateY(0px);
+}
+.hovered {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(4px);
+  transition: 0.3s;
+  transform: translateY(68px);
+  display: flex;
+  justify-content: center;
+}
+.hovered button {
+  margin: 15px 10px;
+  border: 1px solid rgba(255, 0, 0, 0.801);
+  color: rgba(255, 0, 0, 0.801);
+  padding: 3px 7px !important;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 20px;
+}
+.red {
+  border: 1px solid rgba(255, 255, 0, 0.8) !important;
+  color: rgba(255, 255, 0, 0.8) !important;
+}
+
+.span {
+  width: 99%;
+  height: 4px;
+  display: block;
+  margin: 20px 25px 20px 10px !important;
+  background-color: gray;
+  border-radius: 20px;
+}
+footer {
+  background-color: #143043;
+  margin-left: 10px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 12px 0px;
+}
+p {
+  font-weight: bold;
+  margin: 10px !important;
+}
+
+span {
+  color: rgb(167, 167, 167);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.borrad {
+  border-radius: 10px;
+}
